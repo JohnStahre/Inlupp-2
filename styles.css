@@ -5,3 +5,16 @@
 .mobile img {
     width: 100%;
 }
+
+.circle {
+    margin:auto;
+    position: relative;
+}
+
+.phoneci {
+    position: relative;
+    /* top: 150%;
+    left: 30%; */
+    transform: translate(-50%, -50%);
+
+}
