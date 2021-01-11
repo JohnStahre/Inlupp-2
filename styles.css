@@ -6,6 +6,24 @@
     width: 100%;
 }
 
+.circlephone {
+    background-image: url(images/Screen-1.png), url(images/bg.png);
+    background-repeat: no-repeat;
+    
+}
+
+/* .card {
+    border: none;
+    box-shadow: none;
+    margin-top: 3rem;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+  }
+  .card:hover ~ #ball {
+    background-color: teal;
+  }
+  
 .circle {
     width: 50px;
     height: 50px;
@@ -20,4 +38,4 @@
     left: 30%;
     transform: translate(-50%, -50%);
 
-}
+} */
