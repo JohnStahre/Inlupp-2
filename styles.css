@@ -13,6 +13,21 @@
     /* background-position: bottom; */
     background-position: center;
     background-repeat: no-repeat;
+ }
+
+ 
+  .header-bg{
+  background: url(images/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+
+ 
+ 
+ 
+ 
+
+
 
     /* position: relative;
     left: 300px; */
