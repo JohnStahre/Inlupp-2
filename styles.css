@@ -7,22 +7,21 @@
 }
 
  .circlephone  {
-    background-image: url(images/bg.png), url(images/iPhone\ X\ -\ Light.png);
-   /* background-image: url(images/Screen-1.png); */
-    /* left: 20px; */
-    /* background-position: bottom; */
+    background-image: url(images/bg.png);
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
  }
 
  
-  .header-bg{
+ 
+  /* .header-bg{
   background: url(images/bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; 
+  } */
 
- 
  
  
  
