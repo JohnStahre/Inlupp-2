@@ -1,9 +1,16 @@
 
 
 /* blå färg #1487FD */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 .mobile img {
     width: 100%;
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    
 }
 
  .circlephone  {
