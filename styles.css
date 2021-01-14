@@ -14,6 +14,23 @@ body {
     font-size: 16px;
      color: #333333; */
     
+ #title {
+     background-image: url(images/Group\ 4634.png) , url(images/Rectangle\ 1914.png);
+     background-repeat: no-repeat;
+     background-position: bottom;
+     /* background-color: red; */
+     color: #FFFFFF;
+ }
+
+ #title p {
+     color: whitesmoke;
+ }
+
+ .johns-knapp {
+     padding: 0.7rem 1.5rem;
+     border-radius: 17px;
+     border: 2px solid;
+ }
 
  .mobile img {
     width: 100%;
@@ -62,7 +79,11 @@ h6 {
      margin-left: 5rem
  }
  
- 
+  /* .container-fluid {
+     /* 3 % till topp och botten 15% lefterright */
+     /* padding: 3% 15%; */
+  /* } */
+  */
   /* .header-bg{
   background: url(images/bg.png);
   background-position: center;
