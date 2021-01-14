@@ -7,6 +7,7 @@ $(document).ready(() => {
   $('#slideshow .slick').slick();
  })
 
+//  denna skulle jag vilja få till om det går
   $('.center').slick({
   centerMode: true,
   centerPadding: '60px',
