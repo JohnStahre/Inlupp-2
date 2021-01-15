@@ -118,7 +118,44 @@ h6 {
      margin-left: 5rem
  }
 
+ .t-cluster {
+  
+     background-image: url(images/Screen-3.png);
+ }
+
+ .rotated {
+     transform: rotate(-35deg);
+    text-align: center;
+    margin-left: 5rem;
+ }
+
  
+ #feature {
+
+ }
+
+.y-lipse {
+     position: relative;
+     left:2rem;
+     bottom: 50rem;
+     /* top: 2rem; */
+     /* display inline-block */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* .container-fluid {
      /* 3 % till topp och botten 15% lefterright */
      /* padding: 3% 15%; */
