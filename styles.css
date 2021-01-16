@@ -24,6 +24,8 @@ body {
      /* .navbar {
          padding-bottom: 4.5rem;
      } */
+
+     /* top section */
     
  #title {
      background-image: url(images/Group\ 4634.png) , url(images/Rectangle\ 1914.png);
@@ -123,25 +125,56 @@ h6 {
      background-image: url(images/Screen-3.png);
  }
 
- .rotated {
-     transform: rotate(-35deg);
-    text-align: center;
-    margin-left: 5rem;
+
+
+ /* feature section */
+ #feature {
+
  }
 
- 
- #feature {
+ .normal {
+     position: relative;
+     margin-left: 12rem;
+     justify-content: right;
+     z-index: -1;
+ }
+
+ .rotated {
+     position: relative;
+     transform: rotate(-35deg);
+    text-align: center;
+    margin-left: 0rem;
+    z-index: 0;
 
  }
 
 .y-lipse {
      position: relative;
-     left:2rem;
-     bottom: 50rem;
+     left:25rem;
+     bottom: 35rem;
      /* top: 2rem; */
      /* display inline-block */
+     z-index: -1;
  }
+.b-ellipse {
+    position: relative;
+    left: 2rem;
+    /* top: 1rem; */
+    bottom: 25rem;
+    z-index: 1;
+}
 
+ 
+
+ /* download section */
+
+ #download {
+     background-color:#1487FD;
+     background-image: url()
+     position absolute;
+     z-index: 1;
+
+ }
 
 
 
