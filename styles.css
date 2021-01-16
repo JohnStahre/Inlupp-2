@@ -144,7 +144,7 @@ h6 {
      transform: rotate(-35deg);
     text-align: center;
     margin-left: 0rem;
-    z-index: 0;
+    z-index: 2;
 
  }
 
@@ -158,9 +158,9 @@ h6 {
  }
 .b-ellipse {
     position: relative;
-    left: 2rem;
+    left: 1rem;
     /* top: 1rem; */
-    bottom: 25rem;
+    bottom: 15rem;
     z-index: 1;
 }
 
