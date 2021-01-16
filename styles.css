@@ -55,6 +55,12 @@ body {
 
  }
 
+ /* #title .Buttoncolor {
+    color: #FFBB00;
+    background-color: #FFFFFF; */
+    
+ }
+
  .navbar {
 
  }
@@ -73,9 +79,6 @@ body {
      border: 2px solid;
  }
 
- .mobile img {
-    width: 100%;
-}
 
  p {
   
@@ -128,29 +131,39 @@ h6 {
 
 
  /* feature section */
- #feature {
+  #features{
+   max-height: ;
+    padding-top: 14rem; 
+    height: auto;
 
+
+  }
+
+     background: #1487FD;   
+     padding-top: 25rem; 
+
+ 
+
+ .el-telefono {
+  
+     position: relative; 
+     left:5rem
+     z-index: 10;
+     bottom:35rem;
  }
 
- .normal {
+  .rotated {
      position: relative;
-     margin-left: 12rem;
-     justify-content: right;
-     z-index: -1;
- }
-
- .rotated {
-     position: relative;
-     transform: rotate(-35deg);
-    text-align: center;
-    margin-left: 0rem;
-    z-index: 2;
-
+     /* transform: rotate(-35deg); */
+    text-align: center; 
+    margin-right: -3rem;
+    z-index: 0;
+/* hade velat fått till detta stråla samman alla 4 bilder, men av nån anledning får jag inte till den fjärde bilden och strålar samman telefonerna istället */
  }
 
 .y-lipse {
      position: relative;
-     left:25rem;
+     left:23rem;
      bottom: 35rem;
      /* top: 2rem; */
      /* display inline-block */
@@ -158,10 +171,10 @@ h6 {
  }
 .b-ellipse {
     position: relative;
-    left: 1rem;
+    left:5rem;
     /* top: 1rem; */
-    bottom: 15rem;
-    z-index: 1;
+    bottom: 18rem;
+    z-index: -1;
 }
 
  
@@ -173,6 +186,7 @@ h6 {
      background-image: url()
      position absolute;
      z-index: 1;
+     width:100%
 
  }
 
