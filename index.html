@@ -9,6 +9,8 @@
     <!-- slick -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
     <title>John Stahre -2</title>
@@ -19,13 +21,13 @@
 
     <div class="header-bg">
 
-        <!-- Navbar -->
+        <!-- Navbar-->
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar  navbar-expand-lg navbar-dark">
           <!-- <img src="images/Rectangle 1914.png" alt="">
           <img src="images/Group 4634.png" alt=""> -->
             <div class="container">
-                <img src="images/logo.png" alt="">
+                <img class="navbar-brand" src="images/logo.png" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -49,7 +51,7 @@
                           
 
                       </ul>
-                        <button class="btn btn-warning text-white johns-knapp">Get the app</button>
+                        <button class="btn btn-warning text-white .buttoncolor johns-knapp">Get the app</button>
                   </div>
             </div>
         </nav>
@@ -117,17 +119,17 @@
 
   </section>
 
-  <!-- Cirkel-luren -->
+  <!-- About usCirkel-luren --> 
 
   <section> 
     <div class="container mb-5">
       <div class="row align-items-center">
-        <div class="col-md-12 col-lg-6 circlephone">
+        <div class="col-md-12 col-lg-6 d-none d-sm-block d-none d-md-block circlephone">
           <img src="images/iPhone X - Light.png" class="wow animate__animated animate__fadeInLeft" data-wow-offset="200"data-wow-delay="0.4s"" alt="cirklar">
         </div>
         <div class="col-md-12 col-lg-6 wow animate__animated animate__fadeInRight" data-wow-offset="200"data-wow-delay="0.8s"">
           <div class="vertical"> 
-            <button type="button" class="btn btn-sm btn-primary mb-3" disabled>About us</button>
+            <button type="button" class="btn btn-sm btn-primary btn-aboutus mb-3">About us</button>
           <h1>Easy To Search Your Items By this app</h1>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam facilis autem voluptates suscipit quod mollitia fugiat! Magnam provident nesciunt aliquid eos asperiores hic laboriosam eligendi voluptate optio ea in vero voluptas, similique expedita? Nobis consectetur inventore ipsum cum, officiis nemo optio sed? Nobis cum eaque tenetur odit delectus minima at!</p>
           </div>
@@ -138,11 +140,14 @@
 
 <!-- Feature Section -->
 
-<section id="features" class="mt-5">
+<!-- 
+  <!-- Feature Section -->
+
+<section id="features" class="mt-5 my-5">
   <div class="container">
     <div class="row">
-      <div class="col-6">
-        <button class="johns-knapp">Features</button>
+      <div class="col-md-12 col-lg-6 wow animate__animated animate__fadeInLeft">
+        <button class="btn btn-sm btn-primary btn-features mb-3">Features</button>
          <h1>Easy To Search Your Items By This App</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempore repellendus sed repellat quis nihil veritatis libero architecto fugiat. Eaque labore minus at nam fuga ex vitae voluptatem adipisci aspernatur!</p>
         
@@ -179,21 +184,12 @@
                   </div> -->
           
               
-          <div>
+          <div class="d-none d-lg-block">
                   <!-- <img class="normal" src="images/iPhone X - Light.png" alt=""> -->
-                 <div><img class="rotated" src="images/2mobiles.png" alt=""  <img class="normal" src="images/iPhone X - Light.png" alt="">></div>
-                  <div><img class="b-ellipse" src="images/Ellipse 65.png" alt=""></div>
-                  <div><img class="y-lipse" src="images/Ellipse 62.png" alt=""></div>
+                 <div><img class="rotated wow animate__animated animate__bounce" src="images/2mobiles.png" alt=""></div>
+                  <div><img class="b-ellipse wow animate__animated animate__fadeInLeft" data-wow-offset="200"data-wow-delay="0.8s" src="images/Ellipse 65.png" alt=""></div>
+                  <div><img class="y-lipse wow animate__animated animate__fadeInRight" data-wow-offset="200"data-wow-delay="0.8s" src="images/Ellipse 62.png" alt=""></div>
          </div>
-                  <!-- <<img class="el-telefono" src="images/Image Place here-5.png" alt=""> -->
-                       <!-- <div class="justify content"><img class="rotated" src="images/iPhone X - Light.png" alt="" >
-                        <div><img class="el-telefono" src="images/Image Place here.png" alt="">
-                        <div><img class="b-ellipse" src="images/Ellipse 65.png" alt="">
-                       <div><img class="y-lipse" src="images/Ellipse 62.png" alt=""> 
-                  </div>
-                </div>
-                  </div></div> -->
-                  <!-- <div><img class="el-telefono" src="images/Image Place here.png" alt=""></div> -->
 
           </div>
       </div>
@@ -202,7 +198,6 @@
   </div> 
 
 </section>
-
 
 <!-- slick Rick Carousel -->
 
@@ -220,14 +215,20 @@
   </div>
   
 
-  <div class="my-5">
+  <!-- Application statistics -->
+
+</section>
+
+<section id="application" class="container"> 
+
+  <div class="my-5 container">
     
     <h1>Application Statistics </h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit dolor ipsum consequatur! Harum error a autem eaque quod excepturi obcaecati repellat eveniet delectus, totam minus quas sint inventore molestias impedit.</p>
   </div>
   </div>
       <div class="d-flex justify-content-between align-items-center">
-        <img src="images/Layer 815.png" alt="">
+        <!-- <img src="images/Layer 815.png" alt=""> -->
           <div>
             <h3> + 1430</h3>
             <h6>Clients</h6>                             
@@ -250,68 +251,89 @@
 
 </section>
 
-<!-- download section -->
 
-<Section id="download" class="my-5">
+<!-- example -->
 
-  <div class="container>
- 
-    <div class="row">
-      <img src="images/fff.png" alt="">
-      <!-- <img src="images/Mask Group 1.png" alt=""> -->
-      <img src="images/Image Place here-10.png" alt="">
-      <img src="images/Image Place here-1.png" alt="">
-      
-      <img src="images/Image Place here-11.png" alt="">
-      <div class="col-6">
-      <h1>Download the application now!</h1>
-      <h1>to enjoy features</h1>
+<section id="download"> 
+  <div class="container mb-5">
+    <div class="row align-items-center">
+
+      <div class="col-md-12 col-lg-6 wow animate__animated animate__fadeInLeft">
+        <h1>Download the application now !</h1>
+      <h1>to enjoy its features</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, distinctio non dolor modi animi amet. Similique eveniet, magnam aut reiciendis nostrum, omnis vero cupiditate ea nam velit dolorum laborum beatae!</p>
-      <button class="col-4 m-3">Google play knapp</button>
-      <button class="col-4 m-3">App store knapp</button>
-      <div>
-    <img src="images/Z-telefon" alt="">
-</div>
+      <!-- <button class="btn-light johns-knapp btn-lg"><i class="fab fa-apple"></i><p> get it from </p><br> App Store </button> -->
+
+      <button class="col-4 m-3 btn-light johns-knapp"><i><img src="images/Google_Play-1.png" alt=""></i><get it from</p>Google play</button>
+      <button class="col-4 m-3 btn-light johns-knapp"> <i><img src="images/Apple.png" alt=""></i> App store</button>
       </div>
 
+      <div class="col-md-12 col-lg-6 d-none d-lg-block justify-content-center telphone-3 wow animate__animated animate__fadeInRight" data-wow-offset="200"data-wow-delay="0.8s"">
+        <!-- <div class="telphone-3 justify-content-center">  -->
+          <img src="images/tremobiler.png" alt="">
+        </div>
+    </div>
     </div>
   </div>
-</Section>
+ </section> 
 
 
 
-<form class="my-5">
-  <div class="container"> 
+<!-- formular -->
+
+
+  <div class="container form"> 
     <div class="text-center">
   <h1>Contact US</h1>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, numquam quidem alias, consectetur culpa vel, sit nulla optio ea nostrum nesciunt odio. Illo architecto ut neque optio quae molestias autem!</p>
   <div class="row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="First name">
+    <div class=" col-12 col-lg-6 mb-3"">
+      <input type="text" class="form-control p-3" placeholder="First name">
     </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Last name">
+    <div class="col-12 col-lg-6 mb-3"">
+      <input type="text" class="form-control p-3" placeholder="Last name">
     </div>
     <div class="form-group">
       <label for="exampleFormControlTextarea1">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <textarea class="form-control p-3" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
    
   </div>
 </div>
 </div> 
 <div class="d-flex justify-content-center">
-  <button type="button" class="btn btn-lg btn-primary mt-4" disabled>Send</button>
+  <button type="button" class="btn-contact btn btn-lg btn-primary mt-4" disabled>Send</button>
 <!-- <button class="bg bg-primary item-center">Send</button> -->
 </div>
-</form>
-
-<footer>
-
-</footer>
 
 
- 
+<!-- last div -->
+
+<section id="bg-last" class="container-fluid">
+  <div class="container">
+    <img class="text-center" src="images/logo.png" alt="">
+    <div>
+    <div class="d-flex justify-content-between align-items-center">
+      <ul class="nav-item navbar-item">
+        <li>Home</li>
+        <li>Abolut Us</li>
+        <li>Features</li>
+        <li>Screens</li>
+        <li>Contact Us</li>
+      </ul>
+      <div>
+        <!-- #1487FD -->
+        <i><img class="nav-link" src="images/facebook (1).png""></i>
+        <i><img class="nav-link" src="images/twitter (2).png" alt=""></i>
+        <i><img class="nav-link" src="images/instagram.png" alt=""></i>
+        <i><img class="nav-link" src="images/google-hangouts.png" alt=""></i>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+</section>
 
     
   <div style="height: 500px;" class="bg-primary"></div>

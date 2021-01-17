@@ -55,17 +55,21 @@ body {
 
  }
 
- /* #title .Buttoncolor {
+ .buttoncolor {
     color: #FFBB00;
     background-color: #FFFFFF; */
     
  }
 
- .navbar {
+ #title .navbar {
+     padding-bottom: 4.5rem;
+     margin-right: auto;
+
 
  }
 
  .navbar-brand {
+     font-size: 2.5rem;
 }
 
 .navbar-item {
@@ -107,6 +111,20 @@ h6 {
     color: #333333;
 }
 
+/* about us */
+
+.btn-aboutus {
+    padding: none;
+    background-color: #f7f1e0;
+    color: #FFBB00;
+    border:none
+    
+}
+
+.btn-aboutus:hover {
+    color: yellow;
+    background-color: rgb(212, 202, 50);
+}
 
 
  .circlephone  {
@@ -123,43 +141,6 @@ h6 {
      margin-left: 5rem
  }
 
- .t-cluster {
-  
-     background-image: url(images/Screen-3.png);
- }
-
-
-
- /* feature section */
-  #features{
-   max-height: ;
-    padding-top: 14rem; 
-    height: auto;
-
-
-  }
-
-     background: #1487FD;   
-     padding-top: 25rem; 
-
- 
-
- .el-telefono {
-  
-     position: relative; 
-     left:5rem
-     z-index: 10;
-     bottom:35rem;
- }
-
-  .rotated {
-     position: relative;
-     /* transform: rotate(-35deg); */
-    text-align: center; 
-    margin-right: -3rem;
-    z-index: 0;
-/* hade velat fått till detta stråla samman alla 4 bilder, men av nån anledning får jag inte till den fjärde bilden och strålar samman telefonerna istället */
- }
 
 .y-lipse {
      position: relative;
@@ -175,77 +156,150 @@ h6 {
     /* top: 1rem; */
     bottom: 18rem;
     z-index: -1;
-}
+} */
 
+ /* feature section */
+ #features{
+    margin-top: auto;
+     padding-top: 5rem; 
+     height: auto;
+ 
+ 
+   }
+
+   #features .btn-features {
+       padding: none;
+       background-color: #f7f1e0;
+       color: #FFBB00;
+       border:none
+   }
+ 
+   #features .btn-features:hover{
+       color: yellow;
+       background-color: rgb(212, 202, 50);
+   }
+  
+ 
+  .el-telefono {
+   
+      position: relative; 
+      left:5rem
+      z-index: 10;
+      bottom:35rem;
+  }
+ 
+   .rotated {
+      position: relative;
+      /* transform: rotate(-35deg); */
+     text-align: center; 
+     margin-right: -3rem;
+     z-index: 0;
+ /* hade velat fått till detta stråla samman alla 4 bilder, men av nån anledning får jag inte till den fjärde bilden och strålar samman telefonerna istället */
+  }
+ 
+ .y-lipse {
+      position: relative;
+      left:23rem;
+      bottom: 35rem;
+      /* top: 2rem; */
+      /* display inline-block */
+      z-index: -1;
+  }
+ .b-ellipse {
+     position: relative;
+     left:5rem;
+     /* top: 1rem; */
+     bottom: 18rem;
+     z-index: -1;
+ }
+
+ /* en features section */
+
+/* application Section */
+
+#application {
+    height: 400px;
+    padding-top: 2rem;
+    background-image: url(images/Layer\ 815.png);
+    margin: auto;
+
+}
  
 
  /* download section */
 
  #download {
-     background-color:#1487FD;
-     background-image: url()
-     position absolute;
-     z-index: 1;
-     width:100%
+     background-image: url(images/bg-download.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: auto;
+     padding-bottom: 2rem;
+     padding-top: 5rem;
+     /* display: flex; */
+     margin: auto;
+     color: #FFFFFF;
+ }
 
+ #download p {
+    color: white;
+ }
+
+.download-button {
+    marnig
+
+}
+
+     
+  .telephone-3 {
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: auto;
+ }
+     
+
+/* form */
+
+.form {
+    background-color: #FFFFFF;
+    margin: auto;
+     margin-top: 5rem;
+    margin-bottom: 2rem;
+   
+
+}
+
+#bg-last {
+    background-image: url(images/bg-footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bg-last i {
+    background-color: #1487fd;
+    border-radius: 5px;
+    align-items: center;
+    
+
+}
+
+.btn-contact {
+    margin-bottom: 7rem;
+    background-color: chocolate Important;
+
+}
+
+
+ /* last div */
+
+ .bg-last {
+     background-image: url(images/Group\ -1.png)
+ }
+
+ .end.logo {
+     background-image: ;
  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  /* .container-fluid {
-     /* 3 % till topp och botten 15% lefterright */
-     /* padding: 3% 15%; */
-  /* } */
-  */
-  /* .header-bg{
-  background: url(images/bg.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; 
-  } */
-
- 
- 
- 
-
-
-
-    /* position: relative;
-    left: 300px; */
-    /* padding-left: 28rem; */
-    /* z-index: 1; */
-     /* margin-top: 3rem;
-    padding: 7rem; */
- 
-
-    /* sätt 2 att göra det på ?? */
-    /* .circlephone1 {
-        left: 500px;
-        right: 500px;
-        
-    }
-
-    .circle-1 {
-        background-image: url(images/bg.png);
-        margin: auto;
-        position:relative;
-        z-index: -1;
-    }
-
-    .screen-1 {
-        background-image: url(images/Screen-1.png);
-        position: absolute;
-        justify-content: center;
-        z-index: 1;
-    } */
